@@ -1,6 +1,6 @@
-function heckForSpam(message) {
-    let message = message.toLowerCase();
-    if (message.includes('spam') || message.includes('sale')) {
+function checkForSpam(message) {
+    let checkForMessage = message.toLowerCase();
+    if (checkForMessage.includes('spam') || checkForMessage.includes('sale')) {
         return true;
     }
     else {
